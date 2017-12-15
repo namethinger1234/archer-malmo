@@ -1,0 +1,140 @@
+* {
+	box-sizing: border-box;
+	font-family: 'Cutive Mono', monospace;
+}
+
+.header {
+	float: left;
+	margin: 0;
+	padding: 0.5%;
+	color: rgb(0,207,196);
+	width: 99%;
+	position: absolute;
+	border-bottom: 2px solid;
+	margin-left: 0.5%;
+
+}
+
+body {
+	background-color: rgb(30,0,187);
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	width: 80%;
+	background-color: rgb(191,191,191);
+	position:absolute;
+	height: 75%;
+	margin-top: 5%;
+	margin-left: 10%;
+	border-bottom: 15px outset black;
+	border-right: 15px outset black;
+	padding: 0.5%;
+}
+
+.in {
+	width: 98%;
+	border:2px outset ;
+	margin-left: 0.5%;
+	padding: 10px;
+	height: 80%;
+	position: absolute;
+	overflow: hidden;
+}
+
+.set {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	position: relative;
+	height: 90%;
+	padding: 10px;
+	border:2px inset ;
+	position: absolute;
+}
+
+.set img.i {
+	width: 70%;
+	height: 25%;
+	position: relative;
+	margin-left: 15%;
+	border: 10px inset;
+	padding: 0.5%;
+}
+
+.set p {
+	width: 100%;
+	position: relative;
+}
+
+.set img.t {
+	height: 300px;
+	transform: rotate(90deg);
+	position: relative; 
+	float: right;
+	margin-top: 12.5%;
+}
+
+.set img.ms {
+	height: 300px;
+	transform: rotate(90deg);
+	position: absolute; 
+	float: left;
+	margin-top: 12.5%;
+}
+
+.txt2 {
+	width: 100%;
+	clear: both;
+	margin-top:57.5%;
+	position: absolute;
+}
+
+.set img.bo {
+	height: 300px;
+	transform: rotate(90deg);
+	position: absolute; 
+	float: right;
+	margin-top: 90%;
+	clear: both;
+	width: 49.5%;
+	margin-left: 45.3%;
+}
+
+.set img.ma {
+	height: 300px;
+	transform: rotate(90deg);
+	position: absolute;
+	width: 49.5%; 
+	float: left;
+	margin-top: 90%;
+	margin-left:1.55%;
+}
+
+.txt3 {
+	width: 100%;
+	clear: both;
+	margin-top:130%;
+	position: absolute;
+}
+
+.img2 {
+	width: 90%;
+	margin-top: 150%;
+	padding: 0;
+	margin-left: 0;
+	clear: both;
+}
+
+.img2 img {
+	width: 80%;
+	margin-left: 15%;
+}
+
+.txt4 {
+	width: 100%;
+	margin-top: 5%;
+}
+
+
+
